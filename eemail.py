@@ -4,8 +4,7 @@ from email.mime.text import MIMEText
 
 
 def SendMail(to, subject, body):
-    sender = "connekt.apps@gmail.com"
-    password = "connekt-->app"
+
 
     msg = MIMEMultipart()
     msg['Subject'] = subject
