@@ -6,10 +6,7 @@ tts.setProperty("rate", 150)
 tts.setProperty('voice', tts.getProperty('voices')[1].id)
 
 
-def Say(msg):
+def say(msg):
     tts.say(msg)
     tts.runAndWait()
     tts.stop()
-
-
-Say("hello")
